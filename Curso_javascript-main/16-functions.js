@@ -117,3 +117,12 @@ myArray.forEach((value) => console.log(value))
 mySet.forEach((value) => console.log(value))
 
 myMap.forEach((value) => console.log(value))
+
+
+//ejemplos libres con funciones
+
+function calcularEdad(añoNacimiento) {
+    const añoActual = 2025
+    return añoActual - añoNacimiento
+}
+console.log("Tu edad es", calcularEdad(1973) + " años.")

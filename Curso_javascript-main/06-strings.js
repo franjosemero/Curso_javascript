@@ -50,10 +50,3 @@ console.log(message)
 let email = "franjosemero@gmail.com"
 console.log(`Hola, ${myName}! Tu email es ${email}.`)
 
-//ejemplos libres con funciones
-
-function calcularEdad(añoNacimiento) {
-    const añoActual = 2025
-    return añoActual - añoNacimiento
-}
-console.log("Tu edad es", calcularEdad(1973) + " años.")
