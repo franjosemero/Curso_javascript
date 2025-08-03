@@ -47,10 +47,19 @@ console.log (myArray)
 
 myArray = []
 
-// push y pop
+// push y pop 
+// push añade uno o mas elementos al final de el array y devuelve la nueva longitud del array
+// pop elimina el ultimo elemento de el array y lo devuelve
+
+myArray.push("francisco")
+myArray.push("jose")
+myArray.push("meroño")
+myArray.push(51)
 
 
 // push añade arrays en orden de entrada
+
+
 myArray.push("FRANCISCO")
 myArray.push("JOSE")
 myArray.push("MEROÑO")
@@ -66,10 +75,17 @@ console.log (myArray)
 
 // shift y unshift
 // shift elimina el primer elemento de la array 
+// y devuelve el elemento eliminado
+
+myArray = ["francisco","jose","meroño",51,true]
 console.log(myArray.shift())
 console.log(myArray)
 
 //unshift agrega uno o mas elementos al principio de el array 
+// y devuelve la nueva longitud de el array
+
+myArray = ["francisco","jose","meroño",51,true]
+console.log(myArray)
 
 myArray.unshift("FRANCISCO","MEROÑO")
 console.log(myArray)
@@ -77,6 +93,9 @@ myArray.push(51)
 console.log(myArray)
 
 // length nos da la medida que tiene el Array
+// si le añadimos un numero al final del array lo añade a la longitud
+// si le quitamos un elemento al final del array lo resta de la longitud
+
 console.log( myArray.length)
 
 // clear para vaciar un Array lo inicializamos a vacio o como alternativa le decimos( myarray.legth = 0 ) no aconsejable 
